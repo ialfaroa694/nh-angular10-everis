@@ -14,6 +14,7 @@ import { CustomNamePipe } from './components/book-example/book-name.pipe';
 import { PublisherPrettyPipe } from './components/book-example/publisher-pretty.pipe';
 import { ExamplePageComponent } from './pages/example-page/example-page.component';
 import { BookTopExampleDirective } from './components/book-example/book-top-example.directive';
+import { BookSelectListComponent } from './components/book-select-list/book-select-list.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { BookTopExampleDirective } from './components/book-example/book-top-exam
     PublisherPrettyPipe,
     ExamplePageComponent,
     BookTopExampleDirective,
+    BookSelectListComponent,
   ],
   imports: [
     BrowserModule,

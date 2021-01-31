@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { element } from 'protractor';
 import { IBook } from '../book';
 import { BookData } from './mock-data';
 
@@ -11,11 +12,14 @@ export class BookListExampleComponent implements OnInit {
 
   books: IBook[];
   selectedBooks: IBook[];
+  listBook: IBook[];
+  
   constructor() { }
 
   ngOnInit(): void {
     this.books = this.fetchBook();
     this.selectedBooks = [];
+    this.listBook = this.fetchBook();
   }
 
   fetchBook(): IBook[] {
@@ -23,7 +27,14 @@ export class BookListExampleComponent implements OnInit {
   }
 
   selectBook(book: IBook): void {
-    this.selectedBooks.push(book);
+    this.selectedBooks.push(book); 
+    
+    for(let p in this.books){
+      if(this.books[p] === book){       
+       this.books[p].cantidad = this.books[p].cantidad + 1;       
+       console.log(this.books[p].cantidad);
+      }
+    }
   }
 
 }

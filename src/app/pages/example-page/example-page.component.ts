@@ -28,6 +28,7 @@ export class ExamplePageComponent implements OnChanges, OnInit, OnDestroy {
       "language": "en",
       "publishedDate": "2005-12-18",
       "publisher": "Jez Humble & David Farley",
+      "cantidad": 0,
     },
     {
       "id": 2,
@@ -37,15 +38,17 @@ export class ExamplePageComponent implements OnChanges, OnInit, OnDestroy {
       "language": "en",
       "publishedDate": "2010-11-16",
       "publisher": "Robert Sedgewick & Kevin Wayne",
+      "cantidad": 0,
     },
     {
       "id": 3,
-    "name": "The Self-Taught Programmer",
-    "isbn": "252623",
-    "image": "http://nh-back.jcramireztello.com/media/books/5f288004037f6811b18d3787_23.jpg",
-    "language": "en",
-    "publishedDate": "2017-02-18",
-    "publisher": "Cory Althoff",
+      "name": "The Self-Taught Programmer",
+      "isbn": "252623",
+      "image": "http://nh-back.jcramireztello.com/media/books/5f288004037f6811b18d3787_23.jpg",
+      "language": "en",
+      "publishedDate": "2017-02-18",
+      "publisher": "Cory Althoff",
+      "cantidad": 0,
     }
   ];
 

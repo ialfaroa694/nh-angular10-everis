@@ -7,4 +7,5 @@ export interface IBook {
   publishedDate: string;
   publisher: string;
   isTop: boolean;
+  cantidad?: number;
 }

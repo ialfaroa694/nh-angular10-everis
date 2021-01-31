@@ -10,6 +10,7 @@ export const BookData: IBook[] = [
     "publishedDate": "2005-12-18",
     "publisher": "Jez Humble & David Farley",
     "isTop": false,
+    "cantidad":0,
   },
   {
     "id": 2,
@@ -20,6 +21,7 @@ export const BookData: IBook[] = [
     "publishedDate": "2010-11-16",
     "publisher": "Robert Sedgewick & Kevin Wayne",
     "isTop": true,
+    "cantidad":0,
   },
   {
     "id": 3,
@@ -30,5 +32,6 @@ export const BookData: IBook[] = [
     "publishedDate": "2017-02-18",
     "publisher": "Cory Althoff",
     "isTop": true,
+    "cantidad":0,
   }
 ];
